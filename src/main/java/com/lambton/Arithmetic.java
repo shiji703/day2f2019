@@ -22,10 +22,10 @@ public class Arithmetic
          return c;
      }
 
-     int quot(int a, int b)
+     float quot(int a, int b)
      {
-         int c;
-         c = a / (float)b;
+         float c;
+         c = a / (float) b;
          return c;
      }
 
