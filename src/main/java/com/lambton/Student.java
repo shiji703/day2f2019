@@ -86,8 +86,17 @@ public class Student {
     }
     public void generateResult()
     {
+
         if(determineResult())
         {
+            if(percentage <= 49)
+            {
+                results = "F";
+            }
+             else if(percentage <= 59)
+            {
+                results = "D";
+            }
             System.out.println("PASS");
         }
         else
